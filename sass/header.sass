@@ -1,0 +1,29 @@
+@import "bourbon"
+@import "vars.sass"
+
+html, body
+  height: 100%
+  margin: 0
+  padding: 0
+
+*
+  margin: 0
+  padding: 0
+  outline: none
+  text-rendering: auto
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  //font-feature-settings: 'liga' // Fix normal show on MS Edge
+
+body
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: 1.6
+  font-family: "RobotoRegular", sans-serif
+  overflow-x: hidden
+  background-color: $bg-color
+  color: #fff
+
+.hidden
+  display: none
